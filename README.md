@@ -10,3 +10,7 @@ Then , this hidden image can be passed to a Revealing network, which can get the
 
 ![Current System State](images/current_state.png)
 it is visually very hard to realise that the covered image is an image that has been tampered with. Yet the Reveal network can get back almost all of the important parts of the image. 
+
+### Architecture 
+![network_design](images/network_diagram.png)
+Prep Net, Hide Net , and Reveal net have the same convolutional block structure. Therefore, in the image , only the reveal network is shown, and prep/hide networks are collapsed (to make the image fit).
